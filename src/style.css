@@ -4,11 +4,27 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 767px) {
+  #weather-app {
+    display: flex;
+    flex-direction: column;
+  }
+  #weather-app div:first-child {
+    order: 1;
+  }
+  h2 {
+    text-align: center;
+  }
+  .primary-link {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 body {
-  margin-top: 100px;
+  margin: 100px 0;
   font-family: "Quicksand", sans-serif;
   background-color: #fafafa;
-  margin: 8px;
 }
 
 h1,
@@ -19,6 +35,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  text-align: center;
 }
 
 h2 {
