@@ -117,3 +117,12 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.signature {
+  color: #22223b;
+  text-align: center;
+  font-size: 10pt;
+  font-family: Quicksand;
+  padding-top: 25px;
+  margin: 100px auto;
+}
